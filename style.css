@@ -1,31 +1,57 @@
 #wrapper{
     width: fit-content;
-    min-height: fit-content;
+    height: fit-content;
     background-color: khaki;
-    margin: 0px auto;
+    margin: auto;
     padding: 20px;
 }
 #header{
+    height: fit-content;
+    width: fit-content;
+    display: block;
+    margin: 10px auto;
+}
+.header_img{
+    width: 150px;
     height: 100px;
-    width: 1000px;
+    display: inline;
+    margin: auto;
+}
+.header_text{
+    height: 100px;
+    width: fit-content;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    margin: auto;
 }
 #main_content{
     height: fit-content;
-    width: 1200px;
+    width: fit-content;
+    display: block;
+    margin: auto;
 }
 .subcontent_vertical{
-    height: 1200px;
-    width: 200px;
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    margin: 0px auto;
 }
 .blue_box{
-    height: 200px;
-    width: 200px;
+    height: fit-content;
+    width: fit-content;
     background-color: cornflowerblue;
     border: 2px black solid;
+    padding: 10px;
+    margin: 5px 0px auto;
 }
 .red_box{
-    height: 200px;
-    width: 200px;
+    height: fit-content;
+    width: fit-content;
     background-color: salmon;
     border: 2px black solid;
+    padding: 10px;
+    margin: 5px 0px auto;
 }
