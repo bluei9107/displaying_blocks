@@ -7,24 +7,25 @@
 }
 #header{
     min-height: 100px;
+    min-width: 1000px;
 }
 #main_content{
     min-height: fit-content;
-    width: auto;
+    min-width: 1200px;
 }
 #subcontent_vertical{
-    min-height: fit-content;
+    min-height: 1200px;
     min-width: 200px;
 }
 .blue_box{
     min-height: 200px;
-    min-width: auto;
+    min-width: 200px;
     background-color: cornflowerblue;
     border: 2px black solid;
 }
 .red_box{
     min-height: 200px;
-    min-width: auto;
+    min-width: 200px;
     background-color: salmon;
     border: 2px black solid;
 }
