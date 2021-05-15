@@ -1,0 +1,30 @@
+#wrapper{
+    width: fit-content;
+    min-height: fit-content;
+    background-color: khaki;
+    margin: 0px auto;
+    padding: 20px;
+}
+#header{
+    min-height: 100px;
+}
+#main_content{
+    min-height: fit-content;
+    width: auto;
+}
+#subcontent_vertical{
+    min-height: fit-content;
+    min-width: 200px;
+}
+.blue_box{
+    min-height: 200px;
+    min-width: auto;
+    background-color: cornflowerblue;
+    border: 2px black solid;
+}
+.red_box{
+    min-height: 200px;
+    min-width: auto;
+    background-color: salmon;
+    border: 2px black solid;
+}
