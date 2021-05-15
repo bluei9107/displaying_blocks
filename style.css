@@ -6,26 +6,26 @@
     padding: 20px;
 }
 #header{
-    min-height: 100px;
-    min-width: 1000px;
+    height: 100px;
+    width: 1000px;
 }
 #main_content{
-    min-height: fit-content;
-    min-width: 1200px;
+    height: fit-content;
+    width: 1200px;
 }
-#subcontent_vertical{
-    min-height: 1200px;
-    min-width: 200px;
+.subcontent_vertical{
+    height: 1200px;
+    width: 200px;
 }
 .blue_box{
-    min-height: 200px;
-    min-width: 200px;
+    height: 200px;
+    width: 200px;
     background-color: cornflowerblue;
     border: 2px black solid;
 }
 .red_box{
-    min-height: 200px;
-    min-width: 200px;
+    height: 200px;
+    width: 200px;
     background-color: salmon;
     border: 2px black solid;
 }
